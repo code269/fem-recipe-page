@@ -1,0 +1,73 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+
+  --brown-800: hsl(14, 45%, 36%);
+
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  color: var(--stone-600);
+  line-height: 1.5em;
+}
+
+section {
+  margin: 2em;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+  font-family: 'Young Serif', serif;
+}
+
+h1 {
+  color: var(--stone-900);
+  line-height: 1em;
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.7em;
+  font-weight: 500;
+  color: var(--brown-800);
+}
+
+span {
+  color: var(--stone-900);
+  font-weight: 600;
+}
+
+li::marker {
+  color: var(--brown-800);
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+.prep-container {
+  margin-top: 2em;
+  padding: 3em;
+  background-color: var(--rose-50);
+}
+
+h3 {
+  color: var(--rose-800);
+}
