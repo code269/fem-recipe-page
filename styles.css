@@ -22,7 +22,7 @@
 body {
   font-family: 'Outfit', sans-serif;
   color: var(--stone-600);
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 section {
@@ -48,9 +48,29 @@ h2 {
   color: var(--brown-800);
 }
 
+h3 {
+  color: var(--rose-800);
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+p,
+li {
+  font-size: 1.05em;
+}
+
+ul,
+ol {
+  padding-left: 1.5em;
+}
+
 span {
   color: var(--stone-900);
   font-weight: 600;
+}
+
+li {
+  margin-bottom: 0.8em;
 }
 
 li::marker {
@@ -64,10 +84,8 @@ img {
 
 .prep-container {
   margin-top: 2em;
-  padding: 3em;
+  padding: 1.5em;
   background-color: var(--rose-50);
 }
 
-h3 {
-  color: var(--rose-800);
-}
+/* Media Queries */
