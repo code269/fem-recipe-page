@@ -27,6 +27,7 @@ body {
 
 section {
   margin: 2em;
+  padding-bottom: 1em;
 }
 
 section:not(:first-of-type):not(:last-of-type) {
@@ -35,7 +36,7 @@ section:not(:first-of-type):not(:last-of-type) {
 
 h1,
 h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-family: 'Young Serif', serif;
 }
 
@@ -68,11 +69,6 @@ ol {
   padding-left: 1.5em;
 }
 
-span {
-  color: var(--stone-900);
-  font-weight: 600;
-}
-
 li {
   padding-left: 1em;
   margin-bottom: 0.8em;
@@ -99,13 +95,16 @@ table {
   border-collapse: collapse;
 }
 
-tr {
+tr:not(:last-child) {
   border-bottom: 1px solid var(--stone-150);
+}
+
+td {
+  padding: 1em 3em;
 }
 
 td:nth-child(even) {
   color: var(--brown-800);
-  font-weight: 600;
 }
 
 /* Media Queries */
