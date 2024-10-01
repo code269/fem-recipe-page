@@ -29,6 +29,10 @@ section {
   margin: 2em;
 }
 
+section:not(:first-of-type):not(:last-of-type) {
+  border-bottom: 1px solid var(--stone-150);
+}
+
 h1,
 h2 {
   margin-bottom: 1rem;
@@ -87,6 +91,21 @@ img {
   margin-top: 2em;
   padding: 1.5em;
   background-color: var(--rose-50);
+}
+
+table {
+  margin-top: 1em;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+td:nth-child(even) {
+  color: var(--brown-800);
+  font-weight: 600;
 }
 
 /* Media Queries */
