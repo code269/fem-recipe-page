@@ -83,6 +83,11 @@ img {
   width: 100%;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
 .prep-container {
   margin-top: 2em;
   padding: 1.5em;
@@ -107,4 +112,12 @@ td:nth-child(even) {
   color: var(--brown-800);
 }
 
-/* Media Queries */
+@media (min-width: 700px) {
+  body {
+    padding: 2em;
+  }
+
+  img {
+    border-radius: 1em;
+  }
+}
